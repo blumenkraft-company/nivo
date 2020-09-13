@@ -1,6 +1,6 @@
 {
   "name": "@blumenkraft/nivo-line",
-  "version": "0.62.0",
+  "version": "0.62.1",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -23,13 +23,13 @@
     "dist/"
   ],
   "dependencies": {
-    "@blumenkraft/nivo-annotations": "0.62.0",
-    "@blumenkraft/nivo-axes": "0.62.0",
-    "@blumenkraft/nivo-colors": "0.62.0",
-    "@blumenkraft/nivo-core": "0.62.0",
-    "@blumenkraft/nivo-legends": "0.62.0",
-    "@blumenkraft/nivo-scales": "0.62.0",
-    "@blumenkraft/nivo-voronoi": "0.62.0",
+    "@blumenkraft/nivo-annotations": "^0.62.1",
+    "@blumenkraft/nivo-axes": "^0.62.1",
+    "@blumenkraft/nivo-colors": "^0.62.1",
+    "@blumenkraft/nivo-core": "^0.62.1",
+    "@blumenkraft/nivo-legends": "^0.62.1",
+    "@blumenkraft/nivo-scales": "^0.62.1",
+    "@blumenkraft/nivo-voronoi": "^0.62.1",
     "d3-shape": "^1.3.5",
     "lodash": "^4.17.11",
     "react-motion": "^0.5.2"

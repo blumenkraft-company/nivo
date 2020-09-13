@@ -1,6 +1,6 @@
 {
   "name": "@blumenkraft/nivo-voronoi",
-  "version": "0.62.0",
+  "version": "0.62.1",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -24,7 +24,7 @@
     "index.d.ts"
   ],
   "dependencies": {
-    "@blumenkraft/nivo-core": "0.62.0",
+    "@blumenkraft/nivo-core": "^0.62.1",
     "d3-delaunay": "^5.1.1",
     "d3-scale": "^3.0.0",
     "recompose": "^0.30.0"

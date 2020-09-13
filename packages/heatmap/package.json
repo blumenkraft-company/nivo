@@ -1,6 +1,6 @@
 {
   "name": "@blumenkraft/nivo-heatmap",
-  "version": "0.62.0",
+  "version": "0.62.1",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -23,9 +23,9 @@
     "dist/"
   ],
   "dependencies": {
-    "@blumenkraft/nivo-axes": "0.62.0",
-    "@blumenkraft/nivo-colors": "0.62.0",
-    "@blumenkraft/nivo-core": "0.62.0",
+    "@blumenkraft/nivo-axes": "^0.62.1",
+    "@blumenkraft/nivo-colors": "^0.62.1",
+    "@blumenkraft/nivo-core": "^0.62.1",
     "d3-scale": "^3.0.0",
     "lodash": "^4.17.11",
     "react-motion": "^0.5.2",
