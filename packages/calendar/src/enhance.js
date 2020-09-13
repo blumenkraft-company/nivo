@@ -8,7 +8,7 @@
  */
 import { compose, defaultProps, withPropsOnChange, pure } from 'recompose'
 import { scaleQuantize } from 'd3-scale'
-import { withTheme, withDimensions } from '@nivo/core'
+import { withTheme, withDimensions } from '@blumenkraft/nivo-core'
 import { CalendarDefaultProps, CalendarCanvasDefaultProps } from './props'
 import {
     computeDomain,

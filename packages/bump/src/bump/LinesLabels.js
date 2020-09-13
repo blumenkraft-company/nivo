@@ -9,8 +9,8 @@
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
 import { TransitionMotion, spring } from 'react-motion'
-import { useTheme, useMotionConfig } from '@nivo/core'
-import { inheritedColorPropType } from '@nivo/colors'
+import { useTheme, useMotionConfig } from '@blumenkraft/nivo-core'
+import { inheritedColorPropType } from '@blumenkraft/nivo-colors'
 import { useSeriesLabels } from './hooks'
 
 const LinesLabels = ({ series, getLabel, position, padding, color }) => {

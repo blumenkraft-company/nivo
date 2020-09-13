@@ -8,7 +8,7 @@
  */
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
-import { useMotionConfig, SmartMotion, blendModePropType } from '@nivo/core'
+import { useMotionConfig, SmartMotion, blendModePropType } from '@blumenkraft/nivo-core'
 
 const Areas = ({ areaGenerator, areaOpacity, areaBlendMode, lines }) => {
     const { animate, springConfig } = useMotionConfig()

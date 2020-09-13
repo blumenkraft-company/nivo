@@ -9,8 +9,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { TransitionMotion, spring } from 'react-motion'
-import { midAngle, getPolarLabelProps, useTheme } from '@nivo/core'
-import { useMotionConfig } from '@nivo/core'
+import { midAngle, getPolarLabelProps, useTheme } from '@blumenkraft/nivo-core'
+import { useMotionConfig } from '@blumenkraft/nivo-core'
 
 const ChordLabels = ({ arcs, radius, rotation, getColor }) => {
     const theme = useTheme()

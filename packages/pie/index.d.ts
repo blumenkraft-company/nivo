@@ -1,9 +1,9 @@
 import * as React from 'react'
-import { Box, Dimensions, Theme, MotionProps, ColorProps, SvgDefsAndFill } from '@nivo/core'
-import { OrdinalColorsInstruction, InheritedColorProp } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
+import { Box, Dimensions, Theme, MotionProps, ColorProps, SvgDefsAndFill } from '@blumenkraft/nivo-core'
+import { OrdinalColorsInstruction, InheritedColorProp } from '@blumenkraft/nivo-colors'
+import { LegendProps } from '@blumenkraft/nivo-legends'
 
-declare module '@nivo/pie' {
+declare module '@blumenkraft/nivo-pie' {
     export interface PieDatum {
         id: string | number
         value: number

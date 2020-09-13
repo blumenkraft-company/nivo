@@ -8,8 +8,8 @@
  */
 import React, { memo, useCallback } from 'react'
 import PropTypes from 'prop-types'
-import { useTooltip } from '@nivo/tooltip'
-import { Mesh as BaseMesh } from '@nivo/voronoi'
+import { useTooltip } from '@blumenkraft/nivo-core'
+import { Mesh as BaseMesh } from '@blumenkraft/nivo-voronoi'
 import { NodePropType } from './props'
 
 const Mesh = ({ nodes, width, height, onMouseEnter, onMouseMove, onClick, tooltip, debug }) => {

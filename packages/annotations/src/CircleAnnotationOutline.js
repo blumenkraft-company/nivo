@@ -9,7 +9,7 @@
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
 import { Motion, spring } from 'react-motion'
-import { useMotionConfig, useTheme } from '@nivo/core'
+import { useMotionConfig, useTheme } from '@blumenkraft/nivo-core'
 
 const CircleAnnotationOutline = memo(({ x, y, size }) => {
     const theme = useTheme()

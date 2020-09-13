@@ -8,8 +8,7 @@
  */
 import React, { memo, useRef, useEffect, useCallback } from 'react'
 import { geoContains } from 'd3-geo'
-import { getRelativeCursor, withContainer, useDimensions, useTheme } from '@nivo/core'
-import { useTooltip } from '@nivo/tooltip'
+import { getRelativeCursor, withContainer, useDimensions, useTheme, useTooltip } from '@blumenkraft/nivo-core'
 import { GeoMapCanvasDefaultProps, GeoMapCanvasPropTypes } from './props'
 import { useGeoMap } from './hooks'
 

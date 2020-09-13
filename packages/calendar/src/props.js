@@ -8,8 +8,8 @@
  */
 import PropTypes from 'prop-types'
 import { timeFormat } from 'd3-time-format'
-import { noop, boxAlignments } from '@nivo/core'
-import { LegendPropShape } from '@nivo/legends'
+import { noop, boxAlignments } from '@blumenkraft/nivo-core'
+import { LegendPropShape } from '@blumenkraft/nivo-legends'
 
 const monthLabelFormat = timeFormat('%b')
 

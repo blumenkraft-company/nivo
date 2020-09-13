@@ -10,7 +10,7 @@ import React, { memo } from 'react'
 import range from 'lodash/range'
 import PropTypes from 'prop-types'
 import { TransitionMotion, spring } from 'react-motion'
-import { useTheme, useMotionConfig } from '@nivo/core'
+import { useTheme, useMotionConfig } from '@blumenkraft/nivo-core'
 import { lineRadial, curveLinearClosed } from 'd3-shape'
 
 const levelWillEnter = () => ({ r: 0 })

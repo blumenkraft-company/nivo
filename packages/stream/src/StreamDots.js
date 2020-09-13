@@ -11,7 +11,7 @@ import PropTypes from 'prop-types'
 import compose from 'recompose/compose'
 import pure from 'recompose/pure'
 import { TransitionMotion, spring } from 'react-motion'
-import { motionPropTypes } from '@nivo/core'
+import { motionPropTypes } from '@blumenkraft/nivo-core'
 
 const getDotY = (datum, position) => {
     let y = datum.y2

@@ -1,10 +1,10 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
-import { generateCountriesData, sets } from '@nivo/generators'
+import { generateCountriesData, sets } from '@blumenkraft/nivo-generators'
 import range from 'lodash/range'
 import random from 'lodash/random'
-import { useTheme } from '@nivo/core'
+import { useTheme } from '@blumenkraft/nivo-core'
 import { Bar } from '../src'
 
 const keys = ['hot dogs', 'burgers', 'sandwich', 'kebab', 'fries', 'donut']

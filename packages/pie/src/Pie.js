@@ -19,8 +19,8 @@ import {
     Container,
     SvgWrapper,
     bindDefs,
-} from '@nivo/core'
-import { getInheritedColorGenerator } from '@nivo/colors'
+} from '@blumenkraft/nivo-core'
+import { getInheritedColorGenerator } from '@blumenkraft/nivo-colors'
 import { PieDefaultProps } from './props'
 import PieSlice from './PieSlice'
 import PieRadialLabels from './PieRadialLabels'

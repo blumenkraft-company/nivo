@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-declare module '@nivo/colors' {
+declare module '@blumenkraft/nivo-colors' {
     export type CategoricalColorSchemeId =
         | 'nivo'
         | 'category10'

@@ -8,8 +8,8 @@
  */
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
-import { useMotionConfig } from '@nivo/core'
-import { SmartMotion } from '@nivo/core'
+import { useMotionConfig } from '@blumenkraft/nivo-core'
+import { SmartMotion } from '@blumenkraft/nivo-core'
 
 const LinesItem = ({ lineGenerator, id, points, color, thickness }) => {
     const { animate, springConfig } = useMotionConfig()

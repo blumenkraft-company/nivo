@@ -15,9 +15,9 @@ import {
     useDimensions,
     getAccessorFor,
     SvgWrapper,
-} from '@nivo/core'
-import { useOrdinalColorScale } from '@nivo/colors'
-import { BoxLegendSvg } from '@nivo/legends'
+} from '@blumenkraft/nivo-core'
+import { useOrdinalColorScale } from '@blumenkraft/nivo-colors'
+import { BoxLegendSvg } from '@blumenkraft/nivo-legends'
 import RadarShapes from './RadarShapes'
 import RadarGrid from './RadarGrid'
 import RadarTooltip from './RadarTooltip'

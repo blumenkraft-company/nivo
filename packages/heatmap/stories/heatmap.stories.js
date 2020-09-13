@@ -1,6 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import { generateCountriesData } from '@nivo/generators'
+import { generateCountriesData } from '@blumenkraft/nivo-generators'
 import { HeatMap } from '../src'
 
 const CustomCell = ({

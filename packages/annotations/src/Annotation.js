@@ -9,7 +9,7 @@
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
 import { Motion, spring } from 'react-motion'
-import { useMotionConfig } from '@nivo/core'
+import { useMotionConfig } from '@blumenkraft/nivo-core'
 import { defaultProps } from './props'
 import { useComputedAnnotation } from './hooks'
 import AnnotationNote from './AnnotationNote'

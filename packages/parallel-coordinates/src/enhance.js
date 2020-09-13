@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import { line } from 'd3-shape'
-import { withDimensions, withTheme, curveFromProp } from '@nivo/core'
-import { getOrdinalColorScale } from '@nivo/colors'
+import { withDimensions, withTheme, curveFromProp } from '@blumenkraft/nivo-core'
+import { getOrdinalColorScale } from '@blumenkraft/nivo-colors'
 import withPropsOnChange from 'recompose/withPropsOnChange'
 
 export const commonEnhancers = [

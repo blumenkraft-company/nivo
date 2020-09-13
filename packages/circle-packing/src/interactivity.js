@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { BasicTooltip } from '@nivo/tooltip'
+import { BasicTooltip } from '@blumenkraft/nivo-core'
 
 export const getNodeHandlers = (
     node,

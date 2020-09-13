@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React, { Fragment } from 'react'
-import { withContainer, useDimensions, SvgWrapper, useTheme, useMotionConfig } from '@nivo/core'
-import { useInheritedColor } from '@nivo/colors'
+import { withContainer, useDimensions, SvgWrapper, useTheme, useMotionConfig } from '@blumenkraft/nivo-core'
+import { useInheritedColor } from '@blumenkraft/nivo-colors'
 import { NetworkPropTypes, NetworkDefaultProps } from './props'
 import { useNetwork, useNodeColor, useLinkThickness } from './hooks'
 import AnimatedNodes from './AnimatedNodes'

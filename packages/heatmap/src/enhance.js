@@ -21,8 +21,8 @@ import {
     withMotion,
     guessQuantizeColorScale,
     getAccessorFor,
-} from '@nivo/core'
-import { getInheritedColorGenerator } from '@nivo/colors'
+} from '@blumenkraft/nivo-core'
+import { getInheritedColorGenerator } from '@blumenkraft/nivo-colors'
 import { HeatMapDefaultProps } from './props'
 
 const computeX = (column, cellWidth, padding) => {

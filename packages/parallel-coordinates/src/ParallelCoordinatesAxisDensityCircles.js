@@ -9,7 +9,7 @@
 import React, { PureComponent, Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { TransitionMotion, spring } from 'react-motion'
-import { motionPropTypes } from '@nivo/core'
+import { motionPropTypes } from '@blumenkraft/nivo-core'
 
 export default class ParallelCoordinatesAxisDensityCircles extends PureComponent {
     static propTypes = {

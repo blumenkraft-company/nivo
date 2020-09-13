@@ -8,7 +8,7 @@
  */
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
-import { useMotionConfig, blendModePropType } from '@nivo/core'
+import { useMotionConfig, blendModePropType } from '@blumenkraft/nivo-core'
 import { useSerieHandlers } from './hooks'
 import AnimatedArea from './AnimatedArea'
 import StaticArea from './StaticArea'

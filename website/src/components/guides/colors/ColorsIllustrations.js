@@ -1,8 +1,8 @@
 import React from 'react'
-import { ResponsiveBar } from '@nivo/bar'
-import { ResponsiveStream } from '@nivo/stream'
-import { ResponsiveTreeMap } from '@nivo/treemap'
-import { generateCountriesData } from '@nivo/generators'
+import { ResponsiveBar } from '@blumenkraft/nivo-bar'
+import { ResponsiveStream } from '@blumenkraft/nivo-stream'
+import { ResponsiveTreeMap } from '@blumenkraft/nivo-treemap'
+import { generateCountriesData } from '@blumenkraft/nivo-generators'
 import { FullWidthBanner } from '../../styled'
 import { useTheme } from '../../../theming/context'
 

@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { ResponsiveNetwork, NetworkDefaultProps } from '@nivo/network'
+import { ResponsiveNetwork, NetworkDefaultProps } from '@blumenkraft/nivo-network'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/network/meta.yml'
 import { groups } from '../../data/components/network/props'

@@ -8,7 +8,7 @@
  */
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
-import { BasicTooltip } from '@nivo/tooltip'
+import { BasicTooltip } from '@blumenkraft/nivo-core'
 
 const Tooltip = ({ node }) => {
     return (

@@ -8,7 +8,7 @@
  */
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
-import { useTheme, useMotionConfig, SmartMotion } from '@nivo/core'
+import { useTheme, useMotionConfig, SmartMotion } from '@blumenkraft/nivo-core'
 
 const AnnotationLink = memo(({ points, isOutline }) => {
     const theme = useTheme()

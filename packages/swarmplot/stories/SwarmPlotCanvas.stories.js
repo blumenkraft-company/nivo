@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import { generateSwarmPlotData } from '@nivo/generators'
+import { generateSwarmPlotData } from '@blumenkraft/nivo-generators'
 import { SwarmPlotCanvas } from '../src'
 
 const commonProps = {

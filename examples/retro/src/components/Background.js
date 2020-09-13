@@ -1,6 +1,6 @@
 import React from 'react'
-import { ResponsiveStream } from '@nivo/stream'
-import { generateCountriesData } from '@nivo/generators'
+import { ResponsiveStream } from '@blumenkraft/nivo-stream'
+import { generateCountriesData } from '@blumenkraft/nivo-generators'
 
 const Background = () => (
     <div className="Background">

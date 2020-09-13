@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateSwarmPlotData } from '@nivo/generators'
-import { ResponsiveSwarmPlotCanvas } from '@nivo/swarmplot'
+import { generateSwarmPlotData } from '@blumenkraft/nivo-generators'
+import { ResponsiveSwarmPlotCanvas } from '@blumenkraft/nivo-swarmplot'
 import { HomeItem, HomeItemLabel } from './styled'
 
 const HomeSwarmPlot = ({ reversedColors, nivoTheme }) => {

@@ -9,7 +9,8 @@
 import React, { memo, useMemo } from 'react'
 import PropTypes from 'prop-types'
 import { Motion, spring } from 'react-motion'
-import { useTheme, useMotionConfig } from '@nivo/core'
+import { useTheme } from '../theming'
+import { useMotionConfig } from '../motion'
 
 const CrosshairLine = memo(({ x0, x1, y0, y1 }) => {
     const theme = useTheme()

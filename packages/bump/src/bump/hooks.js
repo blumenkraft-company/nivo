@@ -8,9 +8,8 @@
  */
 import React, { useMemo, useCallback } from 'react'
 import { line as d3Line, curveBasis, curveLinear } from 'd3-shape'
-import { useTheme } from '@nivo/core'
-import { useOrdinalColorScale, useInheritedColor } from '@nivo/colors'
-import { useTooltip } from '@nivo/tooltip'
+import { useTheme, useTooltip } from '@blumenkraft/nivo-core'
+import { useOrdinalColorScale, useInheritedColor } from '@blumenkraft/nivo-colors'
 import { computeSeries } from './compute'
 
 export const useLineGenerator = interpolation =>

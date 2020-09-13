@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React, { memo, useState, Fragment } from 'react'
-import { bindDefs, withContainer, useDimensions, SvgWrapper } from '@nivo/core'
-import { Grid, Axes } from '@nivo/axes'
+import { bindDefs, withContainer, useDimensions, SvgWrapper } from '@blumenkraft/nivo-core'
+import { Grid, Axes } from '@blumenkraft/nivo-axes'
 import { AreaBumpPropTypes, AreaBumpDefaultProps } from './props'
 import { useAreaBump } from './hooks'
 import Area from './Area'

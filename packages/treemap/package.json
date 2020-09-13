@@ -1,5 +1,5 @@
 {
-  "name": "@nivo/treemap",
+  "name": "@blumenkraft/nivo-treemap",
   "version": "0.62.0",
   "license": "MIT",
   "author": {
@@ -22,9 +22,8 @@
     "dist/"
   ],
   "dependencies": {
-    "@nivo/colors": "0.62.0",
-    "@nivo/core": "0.59.0",
-    "@nivo/tooltip": "0.59.0",
+    "@blumenkraft/nivo-colors": "0.62.0",
+    "@blumenkraft/nivo-core": "0.62.0",
     "d3-hierarchy": "^1.1.8",
     "lodash": "^4.17.11",
     "react-motion": "^0.5.2",

@@ -6,9 +6,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-export * from './useCurveInterpolation'
-export * from './useDimensions'
-export * from './usePartialTheme'
-export * from './useTooltip'
-export * from './useTooltipHandlers'
-export * from './useValueFormatter'
+import { useContext } from 'react'
+import { tooltipContext } from '../tooltipContext'
+
+export const useTooltip = () => useContext(tooltipContext)

@@ -8,7 +8,8 @@
  */
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
-import { useTheme, useValueFormatter } from '@nivo/core'
+import { useTheme } from '../theming'
+import { useValueFormatter } from '../hooks'
 import Chip from './Chip'
 
 const BasicTooltip = memo(({ id, value: _value, format, enableChip, color, renderContent }) => {

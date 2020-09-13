@@ -11,13 +11,13 @@ import {
     withContainer,
     useDimensions,
     useTheme,
+    useTooltip,
     getRelativeCursor,
     isCursorInRect,
-} from '@nivo/core'
-import { renderAxesToCanvas, renderGridLinesToCanvas } from '@nivo/axes'
-import { renderLegendToCanvas } from '@nivo/legends'
-import { useTooltip } from '@nivo/tooltip'
-import { useVoronoiMesh, renderVoronoiToCanvas, renderVoronoiCellToCanvas } from '@nivo/voronoi'
+} from '@blumenkraft/nivo-core'
+import { renderAxesToCanvas, renderGridLinesToCanvas } from '@blumenkraft/nivo-axes'
+import { renderLegendToCanvas } from '@blumenkraft/nivo-legends'
+import { useVoronoiMesh, renderVoronoiToCanvas, renderVoronoiCellToCanvas } from '@blumenkraft/nivo-voronoi'
 import { ScatterPlotCanvasPropTypes, ScatterPlotCanvasDefaultProps } from './props'
 import { useScatterPlot } from './hooks'
 

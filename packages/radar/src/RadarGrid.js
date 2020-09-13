@@ -9,7 +9,7 @@
 import React, { memo, useMemo } from 'react'
 import PropTypes from 'prop-types'
 import range from 'lodash/range'
-import { positionFromAngle, useTheme } from '@nivo/core'
+import { positionFromAngle, useTheme } from '@blumenkraft/nivo-core'
 import RadialGridLabels from './RadarGridLabels'
 import RadarGridLevels from './RadarGridLevels'
 

@@ -8,8 +8,8 @@
  */
 import React from 'react'
 import { TransitionMotion, spring } from 'react-motion'
-import { Container, SvgWrapper } from '@nivo/core'
-import { interpolateColor, getInterpolatedColor } from '@nivo/colors'
+import { Container, SvgWrapper } from '@blumenkraft/nivo-core'
+import { interpolateColor, getInterpolatedColor } from '@blumenkraft/nivo-colors'
 import { TreeMapPropTypes } from './props'
 import enhance from './enhance'
 import { nodeWillEnter, nodeWillLeave } from './motion'

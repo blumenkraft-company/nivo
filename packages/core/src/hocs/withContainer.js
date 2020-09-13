@@ -8,7 +8,9 @@
  */
 import React, { Component, useRef } from 'react'
 import PropTypes from 'prop-types'
-import { tooltipContext, useTooltipHandlers, TooltipWrapper } from '@nivo/tooltip'
+import { tooltipContext } from '../tooltipContext'
+import TooltipWrapper from '../components/TooltipWrapper'
+import { useTooltipHandlers } from '../hooks'
 import { ThemeProvider } from '../theming'
 import { MotionConfigProvider } from '../motion'
 

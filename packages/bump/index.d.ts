@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 import { Component, MouseEvent } from 'react'
-import { Dimensions, Box, Theme, MotionProps, CssMixBlendMode } from '@nivo/core'
-import { OrdinalColorsInstruction, InheritedColorProp } from '@nivo/colors'
+import { Dimensions, Box, Theme, MotionProps, CssMixBlendMode } from '@blumenkraft/nivo-core'
+import { OrdinalColorsInstruction, InheritedColorProp } from '@blumenkraft/nivo-colors'
 
-declare module '@nivo/bump' {
+declare module '@blumenkraft/nivo-bump' {
     type SerieDerivedProp<Serie, T> = (serie: Serie) => T
 
     export interface BumpInputDatum {

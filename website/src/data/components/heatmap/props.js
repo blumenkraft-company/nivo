@@ -6,7 +6,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import { HeatMapDefaultProps as defaults } from '@nivo/heatmap'
+import { HeatMapDefaultProps as defaults } from '@blumenkraft/nivo-heatmap'
 import { axesProperties, motionProperties, groupProperties } from '../../../lib/componentProperties'
 
 const props = [

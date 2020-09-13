@@ -7,12 +7,12 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { noop, treeMapTilePropType, defsPropTypes } from '@nivo/core'
+import { noop, treeMapTilePropType, defsPropTypes } from '@blumenkraft/nivo-core'
 import {
     ordinalColorsPropType,
     colorPropertyAccessorPropType,
     inheritedColorPropType,
-} from '@nivo/colors'
+} from '@blumenkraft/nivo-colors'
 import TreeMapNode from './TreeMapNode'
 import TreeMapHtmlNode from './TreeMapHtmlNode'
 

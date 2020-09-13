@@ -1,8 +1,8 @@
 import * as React from 'react'
-import { Box, Theme, Dimensions, MotionProps, ColorProps, SvgDefsAndFill } from '@nivo/core'
-import { InheritedColorProp } from '@nivo/colors'
+import { Box, Theme, Dimensions, MotionProps, ColorProps, SvgDefsAndFill } from '@blumenkraft/nivo-core'
+import { InheritedColorProp } from '@blumenkraft/nivo-colors'
 
-declare module '@nivo/waffle' {
+declare module '@blumenkraft/nivo-waffle' {
     export type WaffleFillDirection = 'top' | 'right' | 'bottom' | 'left'
 
     export interface WaffleDatum {

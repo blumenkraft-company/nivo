@@ -8,7 +8,7 @@
  */
 import React, { memo, useMemo } from 'react'
 import PropTypes from 'prop-types'
-import { SmartMotion, useMotionConfig } from '@nivo/core'
+import { SmartMotion, useMotionConfig } from '@blumenkraft/nivo-core'
 
 const AnimatedLine = ({
     serie,

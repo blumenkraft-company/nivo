@@ -8,8 +8,8 @@
  */
 import React, { memo, useMemo } from 'react'
 import PropTypes from 'prop-types'
-import { useMotionConfig, SmartMotion, useTheme, blendModePropType } from '@nivo/core'
-import { useInheritedColor, inheritedColorPropType } from '@nivo/colors'
+import { useMotionConfig, SmartMotion, useTheme, blendModePropType } from '@blumenkraft/nivo-core'
+import { useInheritedColor, inheritedColorPropType } from '@blumenkraft/nivo-colors'
 import { lineRadial } from 'd3-shape'
 
 const RadarShapes = memo(

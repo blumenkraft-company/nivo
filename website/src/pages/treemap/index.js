@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import omit from 'lodash/omit'
-import { ResponsiveTreeMap, TreeMapDefaultProps } from '@nivo/treemap'
+import { ResponsiveTreeMap, TreeMapDefaultProps } from '@blumenkraft/nivo-treemap'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/treemap/meta.yml'
 import mapper from '../../data/components/treemap/mapper'

@@ -10,8 +10,8 @@ import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import pure from 'recompose/pure'
 import { TransitionMotion, spring } from 'react-motion'
-import { motionPropTypes } from '@nivo/core'
-import { interpolateColor, getInterpolatedColor } from '@nivo/colors'
+import { motionPropTypes } from '@blumenkraft/nivo-core'
+import { interpolateColor, getInterpolatedColor } from '@blumenkraft/nivo-colors'
 
 const SankeyLabels = ({
     nodes,

@@ -1,10 +1,9 @@
 import * as React from 'react'
-import { Dimensions, Box, MotionProps, ColorProps, Theme } from '@nivo/core'
-import { AxisProps } from '@nivo/axes'
-import { InheritedColorProp } from '@nivo/colors'
-import { BasicTooltipProps } from '@nivo/tooltip'
+import { Dimensions, BasicTooltipProps, Box, MotionProps, ColorProps, Theme } from '@blumenkraft/nivo-core'
+import { AxisProps } from '@blumenkraft/nivo-axes'
+import { InheritedColorProp } from '@blumenkraft/nivo-colors'
 
-declare module '@nivo/heatmap' {
+declare module '@blumenkraft/nivo-heatmap' {
     export interface HeatMapDatum {
         [key: string]: string | number
     }

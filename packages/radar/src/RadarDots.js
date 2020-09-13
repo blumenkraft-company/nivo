@@ -15,8 +15,8 @@ import {
     positionFromAngle,
     getLabelGenerator,
     DotsItem,
-} from '@nivo/core'
-import { getInheritedColorGenerator, inheritedColorPropType } from '@nivo/colors'
+} from '@blumenkraft/nivo-core'
+import { getInheritedColorGenerator, inheritedColorPropType } from '@blumenkraft/nivo-colors'
 
 const RadarDots = ({
     data,

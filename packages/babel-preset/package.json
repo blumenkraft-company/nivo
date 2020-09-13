@@ -1,5 +1,5 @@
 {
-  "name": "@nivo/babel-preset",
+  "name": "@blumenkraft/nivo-babel-preset",
   "version": "0.62.0",
   "description": "nivo babel preset",
   "repository": {

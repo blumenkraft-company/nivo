@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import PropTypes from 'prop-types'
-import { themePropType } from '@nivo/core'
+import { themePropType } from '@blumenkraft/nivo-core'
 
 const TreeMapNode = ({ style, node, handlers, theme }) => {
     if (style.width <= 0 || style.height <= 0) return null

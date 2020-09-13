@@ -9,7 +9,7 @@
 import React, { memo } from 'react'
 import omit from 'lodash/omit'
 import PropTypes from 'prop-types'
-import { useTheme } from '@nivo/core'
+import { useTheme } from '@blumenkraft/nivo-core'
 
 const AnnotationNote = memo(({ datum, x, y, note }) => {
     const theme = useTheme()

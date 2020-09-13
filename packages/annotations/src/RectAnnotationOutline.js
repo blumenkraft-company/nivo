@@ -9,7 +9,7 @@
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
 import { Motion, spring } from 'react-motion'
-import { useMotionConfig, useTheme } from '@nivo/core'
+import { useMotionConfig, useTheme } from '@blumenkraft/nivo-core'
 
 const RectAnnotationOutline = memo(({ x, y, width, height }) => {
     const theme = useTheme()

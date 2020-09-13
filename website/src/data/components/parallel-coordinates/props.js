@@ -6,8 +6,8 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import { lineCurvePropKeys } from '@nivo/core'
-import { commonDefaultProps as defaults } from '@nivo/parallel-coordinates'
+import { lineCurvePropKeys } from '@blumenkraft/nivo-core'
+import { commonDefaultProps as defaults } from '@blumenkraft/nivo-parallel-coordinates'
 import { motionProperties, groupProperties } from '../../../lib/componentProperties'
 
 const props = [

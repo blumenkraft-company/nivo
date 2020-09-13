@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { ResponsiveLine, LineComputedSerieData } from '@nivo/line'
-import { LegendMouseHandlerData } from '@nivo/legends'
+import { ResponsiveLine, LineComputedSerieData } from '@blumenkraft/nivo-line'
+import { LegendMouseHandlerData } from '@blumenkraft/nivo-legends'
 
 const colorBy = (data: LineComputedSerieData) => data.color as string
 

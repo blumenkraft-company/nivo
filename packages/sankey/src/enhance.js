@@ -9,8 +9,8 @@
 import { cloneDeep } from 'lodash'
 import { compose, defaultProps, withState, withPropsOnChange, pure } from 'recompose'
 import { sankey as d3Sankey } from 'd3-sankey'
-import { getLabelGenerator, withTheme, withDimensions, withMotion } from '@nivo/core'
-import { getOrdinalColorScale, getInheritedColorGenerator } from '@nivo/colors'
+import { getLabelGenerator, withTheme, withDimensions, withMotion } from '@blumenkraft/nivo-core'
+import { getOrdinalColorScale, getInheritedColorGenerator } from '@blumenkraft/nivo-colors'
 import { SankeyDefaultProps, sankeyAlignmentFromProp } from './props'
 
 const getId = d => d.id

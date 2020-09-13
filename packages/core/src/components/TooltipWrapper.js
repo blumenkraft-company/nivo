@@ -10,7 +10,8 @@ import React, { memo, useMemo, useState } from 'react'
 import PropTypes from 'prop-types'
 import Measure from 'react-measure'
 import { Motion, spring } from 'react-motion'
-import { useTheme, useMotionConfig } from '@nivo/core'
+import { useTheme } from '../theming'
+import { useMotionConfig } from '../motion'
 
 const TOOLTIP_OFFSET = 14
 

@@ -15,7 +15,7 @@ const {
     generateProgrammingLanguageStats,
     generateWinesTastes,
     generateSankeyData,
-} = require('@nivo/generators')
+} = require('@blumenkraft/nivo-generators')
 
 const keys = ['hot dogs', 'burgers', 'sandwich', 'kebab', 'fries', 'donut']
 

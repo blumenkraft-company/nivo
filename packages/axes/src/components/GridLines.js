@@ -9,7 +9,7 @@
 import React, { memo, useMemo } from 'react'
 import PropTypes from 'prop-types'
 import { TransitionMotion, spring } from 'react-motion'
-import { useTheme, useMotionConfig } from '@nivo/core'
+import { useTheme, useMotionConfig } from '@blumenkraft/nivo-core'
 import GridLine from './GridLine'
 
 const GridLines = ({ type, lines }) => {

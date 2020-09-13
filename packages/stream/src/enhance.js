@@ -21,8 +21,8 @@ import {
     withCurve,
     withDimensions,
     withMotion,
-} from '@nivo/core'
-import { getOrdinalColorScale, getInheritedColorGenerator } from '@nivo/colors'
+} from '@blumenkraft/nivo-core'
+import { getOrdinalColorScale, getInheritedColorGenerator } from '@blumenkraft/nivo-colors'
 import { StreamDefaultProps } from './props'
 
 const stackMin = layers =>

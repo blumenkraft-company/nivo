@@ -21,8 +21,8 @@ import {
     getLabelGenerator,
     treeMapTileFromProp,
     bindDefs,
-} from '@nivo/core'
-import { getOrdinalColorScale, getInheritedColorGenerator } from '@nivo/colors'
+} from '@blumenkraft/nivo-core'
+import { getOrdinalColorScale, getInheritedColorGenerator } from '@blumenkraft/nivo-colors'
 import * as props from './props'
 
 const computeNodePath = (node, getIdentity) =>

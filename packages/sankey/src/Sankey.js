@@ -8,8 +8,8 @@
  */
 import React, { Fragment } from 'react'
 import { uniq } from 'lodash'
-import { Container, SvgWrapper } from '@nivo/core'
-import { BoxLegendSvg } from '@nivo/legends'
+import { Container, SvgWrapper } from '@blumenkraft/nivo-core'
+import { BoxLegendSvg } from '@blumenkraft/nivo-legends'
 import { SankeyPropTypes } from './props'
 import enhance from './enhance'
 import SankeyNodes from './SankeyNodes'

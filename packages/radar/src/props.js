@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { ordinalColorsPropType, inheritedColorPropType } from '@nivo/colors'
-import { LegendPropShape } from '@nivo/legends'
-import { closedCurvePropType, motionPropTypes, blendModePropType } from '@nivo/core'
+import { ordinalColorsPropType, inheritedColorPropType } from '@blumenkraft/nivo-colors'
+import { LegendPropShape } from '@blumenkraft/nivo-legends'
+import { closedCurvePropType, motionPropTypes, blendModePropType } from '@blumenkraft/nivo-core'
 
 export const RadarPropTypes = {
     data: PropTypes.arrayOf(PropTypes.object).isRequired,

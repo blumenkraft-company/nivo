@@ -6,8 +6,8 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import { boxAlignments } from '@nivo/core'
-import { CalendarDefaultProps as defaults } from '@nivo/calendar'
+import { boxAlignments } from '@blumenkraft/nivo-core'
+import { CalendarDefaultProps as defaults } from '@blumenkraft/nivo-calendar'
 import { groupProperties } from '../../../lib/componentProperties'
 
 const props = [

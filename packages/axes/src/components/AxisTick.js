@@ -8,7 +8,7 @@
  */
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
-import { useTheme } from '@nivo/core'
+import { useTheme } from '@blumenkraft/nivo-core'
 
 const AxisTick = ({
     value: _value,

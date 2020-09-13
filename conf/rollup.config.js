@@ -47,7 +47,7 @@ const commonPlugins = [
         exclude: 'node_modules/**',
         externalHelpers: true,
         presets: [
-            '@nivo/babel-preset'
+            '@blumenkraft/nivo-babel-preset'
         ]
     }),
     cleanup()
@@ -59,7 +59,7 @@ const configs = [
         output: {
             file: `./packages/${pkg}/dist/nivo-${pkg}.esm.js`,
             format: 'esm',
-            name: `@nivo/${pkg}`,
+            name: `@blumenkraft/nivo-${pkg}`,
         },
         plugins: commonPlugins,
     }
@@ -71,7 +71,7 @@ if (!isWatching) {
         output: {
             file: `./packages/${pkg}/dist/nivo-${pkg}.cjs.js`,
             format: 'cjs',
-            name: `@nivo/${pkg}`,
+            name: `@blumenkraft/nivo-${pkg}`,
         },
         plugins: commonPlugins,
     })

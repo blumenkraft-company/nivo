@@ -8,7 +8,7 @@
  */
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import { motionPropTypes, curveFromProp, SmartMotion } from '@nivo/core'
+import { motionPropTypes, curveFromProp, SmartMotion } from '@blumenkraft/nivo-core'
 import { line } from 'd3-shape'
 
 const lineGenerator = line()

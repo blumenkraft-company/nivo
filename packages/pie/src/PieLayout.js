@@ -14,8 +14,8 @@ import compose from 'recompose/compose'
 import pure from 'recompose/pure'
 import defaultProps from 'recompose/defaultProps'
 import withPropsOnChange from 'recompose/withPropsOnChange'
-import { degreesToRadians, radiansToDegrees, computeArcBoundingBox } from '@nivo/core'
-import { getOrdinalColorScale } from '@nivo/colors'
+import { degreesToRadians, radiansToDegrees, computeArcBoundingBox } from '@blumenkraft/nivo-core'
+import { getOrdinalColorScale } from '@blumenkraft/nivo-colors'
 
 class PieLayout extends Component {
     static propTypes = {

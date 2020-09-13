@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { Container, SvgWrapper } from '@nivo/core'
-import { BoxLegendSvg } from '@nivo/legends'
+import { Container, SvgWrapper } from '@blumenkraft/nivo-core'
+import { BoxLegendSvg } from '@blumenkraft/nivo-legends'
 import { setDisplayName } from 'recompose'
 import { CalendarPropTypes } from './props'
 import enhance from './enhance'

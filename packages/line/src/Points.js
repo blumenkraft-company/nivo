@@ -9,7 +9,7 @@
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
 import { TransitionMotion, spring } from 'react-motion'
-import { useMotionConfig, getLabelGenerator, DotsItem, useTheme } from '@nivo/core'
+import { useMotionConfig, getLabelGenerator, DotsItem, useTheme } from '@blumenkraft/nivo-core'
 
 const Points = ({ points, symbol, size, borderWidth, enableLabel, label, labelYOffset }) => {
     const theme = useTheme()

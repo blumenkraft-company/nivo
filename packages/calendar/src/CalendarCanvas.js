@@ -8,9 +8,8 @@
  */
 import React, { Component } from 'react'
 import setDisplayName from 'recompose/setDisplayName'
-import { isCursorInRect, getRelativeCursor, Container, degreesToRadians } from '@nivo/core'
-import { renderLegendToCanvas } from '@nivo/legends'
-import { BasicTooltip } from '@nivo/tooltip'
+import { BasicTooltip, isCursorInRect, getRelativeCursor, Container, degreesToRadians } from '@blumenkraft/nivo-core'
+import { renderLegendToCanvas } from '@blumenkraft/nivo-legends'
 import enhance from './enhance'
 import { CalendarCanvasPropTypes } from './props'
 

@@ -8,7 +8,7 @@
  */
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
-import { blendModePropType, SmartMotion, useMotionConfig } from '@nivo/core'
+import { blendModePropType, SmartMotion, useMotionConfig } from '@blumenkraft/nivo-core'
 
 const AnimatedArea = ({
     serie,

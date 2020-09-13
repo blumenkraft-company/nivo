@@ -8,8 +8,7 @@
  */
 import React, { memo, useCallback } from 'react'
 import PropTypes from 'prop-types'
-import { blendModePropType } from '@nivo/core'
-import { useTooltip } from '@nivo/tooltip'
+import { blendModePropType, useTooltip } from '@blumenkraft/nivo-core'
 import { NodePropType } from './props'
 
 const NodeWrapper = ({

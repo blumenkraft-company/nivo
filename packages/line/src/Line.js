@@ -12,13 +12,13 @@ import {
     withContainer,
     useDimensions,
     useTheme,
+    Crosshair,
     SvgWrapper,
     CartesianMarkers,
-} from '@nivo/core'
-import { useInheritedColor } from '@nivo/colors'
-import { Axes, Grid } from '@nivo/axes'
-import { BoxLegendSvg } from '@nivo/legends'
-import { Crosshair } from '@nivo/tooltip'
+} from '@blumenkraft/nivo-core'
+import { useInheritedColor } from '@blumenkraft/nivo-colors'
+import { Axes, Grid } from '@blumenkraft/nivo-axes'
+import { BoxLegendSvg } from '@blumenkraft/nivo-legends'
 import { useLine } from './hooks'
 import { LinePropTypes, LineDefaultProps } from './props'
 import Areas from './Areas'

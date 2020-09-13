@@ -1,8 +1,8 @@
 import * as React from 'react'
-import { Dimensions, Theme, Box, BoxAlign } from '@nivo/core'
-import { LegendProps } from '@nivo/legends'
+import { Dimensions, Theme, Box, BoxAlign } from '@blumenkraft/nivo-core'
+import { LegendProps } from '@blumenkraft/nivo-legends'
 
-declare module '@nivo/calendar' {
+declare module '@blumenkraft/nivo-calendar' {
     export type DateOrString = string | Date
 
     export interface CalendarDatum {

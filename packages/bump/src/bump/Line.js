@@ -8,7 +8,7 @@
  */
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
-import { useMotionConfig } from '@nivo/core'
+import { useMotionConfig } from '@blumenkraft/nivo-core'
 import { useSerieHandlers } from './hooks'
 import AnimatedLine from './AnimatedLine'
 import StaticLine from './StaticLine'

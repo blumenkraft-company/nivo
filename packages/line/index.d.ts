@@ -10,22 +10,22 @@ import * as React from 'react'
 import {
     Dimensions,
     Box,
+    CrosshairType,
     Theme,
     MotionProps,
     CartesianMarkerProps,
     SvgDefsAndFill,
     DataFormatter,
     DatumValue as CoreDatumValue,
-} from '@nivo/core'
-import { OrdinalColorsInstruction } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
-import { Scale, ScaleFunc } from '@nivo/scales'
-import { AxisProps, GridValues } from '@nivo/axes'
-import { CrosshairType } from '@nivo/tooltip'
+} from '@blumenkraft/nivo-core'
+import { OrdinalColorsInstruction } from '@blumenkraft/nivo-colors'
+import { LegendProps } from '@blumenkraft/nivo-legends'
+import { Scale, ScaleFunc } from '@blumenkraft/nivo-scales'
+import { AxisProps, GridValues } from '@blumenkraft/nivo-axes'
 
 type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>
 
-declare module '@nivo/line' {
+declare module '@blumenkraft/nivo-line' {
     export type DatumValue = CoreDatumValue
 
     export interface Datum {

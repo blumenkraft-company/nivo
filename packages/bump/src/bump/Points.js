@@ -9,7 +9,7 @@
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
 import { TransitionMotion, spring } from 'react-motion'
-import { useMotionConfig } from '@nivo/core'
+import { useMotionConfig } from '@blumenkraft/nivo-core'
 
 const Points = ({ pointComponent, points }) => {
     const { animate, springConfig } = useMotionConfig()

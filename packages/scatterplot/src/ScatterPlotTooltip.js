@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import PropTypes from 'prop-types'
-import { BasicTooltip } from '@nivo/tooltip'
+import { BasicTooltip } from '@blumenkraft/nivo-core'
 
 const ScatterPlotTooltip = ({ point: { data }, color, format, theme, tooltip }) => (
     <BasicTooltip

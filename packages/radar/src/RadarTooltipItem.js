@@ -10,8 +10,7 @@ import React, { memo, useMemo, useState, useCallback } from 'react'
 import PropTypes from 'prop-types'
 import sortBy from 'lodash/sortBy'
 import { format as d3Format } from 'd3-format'
-import { positionFromAngle, useTheme } from '@nivo/core'
-import { TableTooltip, Chip, useTooltip } from '@nivo/tooltip'
+import { positionFromAngle, TableTooltip, Chip, useTooltip, useTheme } from '@blumenkraft/nivo-core'
 
 const RadarTooltipItem = memo(
     ({
